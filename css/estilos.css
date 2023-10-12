@@ -1,0 +1,217 @@
+@charset "UTF-8";
+/*paleta de colores
+#494949
+#7C7A7A
+#FF5D73
+#FFFFFF
+#000000
+
+*/
+.logo {
+  width: 300px;
+  background-color: black;
+}
+
+body {
+  font-family: "Didact Gothic", sans-serif;
+  position: relative;
+}
+body html {
+  font-family: "Didact Gothic", sans-serif;
+  font-size: 62, 5%;
+}
+body h1 {
+  font-size: 2rem;
+  text-align: center;
+}
+body h2 {
+  font-size: 1rem;
+  font-style: italic;
+  text-align: center;
+}
+body h3 {
+  font-size: 0, 5rem;
+  text-align: center;
+}
+body p {
+  font-size: 1rem;
+  text-align: center;
+}
+
+/*header*/
+/*logo*/
+.logo {
+  width: 300px;
+  background-color: black;
+  text-align: center;
+  margin: auto;
+}
+
+.estiloLogo {
+  background-color: black;
+  text-align: center;
+  margin: auto;
+}
+
+.dropdown-item {
+  background-color: black;
+}
+
+.logo {
+  background-color: #FF5D73;
+}
+
+/*index*/
+.intro {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.descripcion {
+  align-items: center;
+  text-align: center;
+}
+
+.animate__animated.animate__lightSpeedInRight {
+  --animate-duration:6s;
+}
+
+/*titulosSecciones*/
+.tituloIndex {
+  background-color: #FF5D73;
+  font-size: 5rem;
+}
+
+/*main*/
+.imagenesContainer {
+  display: flex;
+  align-items: flex-start;
+  background-color: #7C7A7A;
+  border: 10px solid white;
+}
+.imagenesContainer h3 {
+  text-align: justify;
+  text-decoration: solid;
+  color: #FFFFFF;
+}
+.imagenesContainer img {
+  height: 100%;
+  width: 100%;
+  flex-wrap: nowrap;
+  display: flex;
+  margin: auto;
+}
+
+/*sección promociones*/
+.promo {
+  display: flex;
+  position: relative;
+  align-items: center;
+  text-align: justify;
+  width: 50%;
+  height: 50%;
+  margin: auto;
+}
+
+/*sección cumples*/
+.transicion {
+  text-align: justify;
+  font-size: larger;
+  transition: 6s;
+}
+
+.transicion:hover {
+  color: #494949;
+  font-size: medium;
+}
+
+.imagenCumple {
+  margin-top: 50px;
+  margin-left: 50px;
+  orientation: center;
+  margin-right: 50px;
+}
+
+.formularioCumple {
+  border-inline: center solid white;
+  margin-top: 100px;
+  margin-left: 20px;
+  text-align: justify;
+  display: flex;
+}
+
+/*seccion experiencias*/
+.carrouseltam {
+  width: 80%;
+  height: 80%;
+  orientation: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  display: flex;
+}
+
+/*seccion contacto*/
+.formulario {
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.infoFormulario {
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.boton-enviar {
+  margin-top: 20px;
+  margin-left: 20px;
+  align-items: center;
+}
+
+/*footer*/
+.espacio {
+  align-content: space-around;
+}
+
+.parrafo h2 {
+  text-align: center;
+  color: white;
+  background-position: center;
+  background-color: #494949;
+  text-decoration-line: overline;
+  margin-top: 50px;
+}
+
+.comunicacion {
+  text-align: center;
+  background-position: center;
+  text-orientation: sideways-right;
+}
+
+footer h2 {
+  text-align: center;
+  color: white;
+  background-position: center;
+  background-color: #494949;
+  text-decoration-line: overline;
+  margin-top: 50px;
+}
+
+.ub {
+  width: 100px;
+}
+
+.instagram {
+  width: 80px;
+}
+
+.logoFinal {
+  width: 100px;
+}
+
+/*# sourceMappingURL=estilos.css.map */
